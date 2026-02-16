@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine Wishies - Final Surprise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-requires-unlock="true" class="finale-page">
+  <div id="floating-hearts" aria-hidden="true"></div>
+
+  <main>
+    <header class="hero glass-card">
+      <p class="eyebrow">Valentine Wishies</p>
+      <h1>The Last Chapter</h1>
+      <nav class="top-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="letter.html">Love Letter</a>
+        <a href="kiss.html">Kiss</a>
+        <a href="proposal.html">Proposal</a>
+        <a href="memories.html">Memories</a>
+        <a href="together.html">Together Timer</a>
+        <a href="finale.html" aria-current="page">Final Surprise</a>
+      </nav>
+    </header>
+
+    <section id="final-stage" class="section glass-card final-stage">
+      <h2>For My Forever Love</h2>
+      <p class="final-intro">When you are ready, tap the button for the cinematic ending.</p>
+      <button id="final-surprise-btn" type="button">Click for Final Surprise</button>
+    </section>
+  </main>
+
+  <div id="final-surprise-overlay" aria-hidden="true">
+    <div id="final-heart-rain" class="final-heart-rain" aria-hidden="true"></div>
+    <p id="final-message"></p>
+    <button id="final-overlay-back-btn" type="button">Get Back to Page</button>
+  </div>
+
+  <audio id="romantic-music" src="music/romantic.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine Wishies - Proposal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-requires-unlock="true">
+  <div id="floating-hearts" aria-hidden="true"></div>
+
+  <main>
+    <header class="hero glass-card">
+      <p class="eyebrow">Valentine Wishies</p>
+      <h1>The Big Question</h1>
+      <nav class="top-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="letter.html">Love Letter</a>
+        <a href="kiss.html">Kiss</a>
+        <a href="proposal.html" aria-current="page">Proposal</a>
+        <a href="memories.html">Memories</a>
+        <a href="together.html">Together Timer</a>
+        <a href="finale.html">Final Surprise</a>
+      </nav>
+    </header>
+
+    <section id="proposal" class="section glass-card">
+      <h2>Valentine Proposal</h2>
+      <p id="proposal-question" class="proposal-question"></p>
+      <div id="proposal-buttons" class="proposal-buttons">
+        <button id="yes-btn" type="button">YES 💘</button>
+        <button id="no-btn" type="button">NO 💔</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="yes-overlay" aria-hidden="true">
+    <div class="overlay-panel">
+      <p>I knew it! You’re stuck with me forever 😘</p>
+      <button id="yes-overlay-back-btn" type="button">Get Back to Page</button>
+    </div>
+  </div>
+
+  <audio id="romantic-music" src="music/romantic.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine Wishies - Together Timer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-requires-unlock="true">
+  <div id="floating-hearts" aria-hidden="true"></div>
+
+  <main>
+    <header class="hero glass-card">
+      <p class="eyebrow">Valentine Wishies</p>
+      <h1>Our Time Story</h1>
+      <nav class="top-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="letter.html">Love Letter</a>
+        <a href="kiss.html">Kiss</a>
+        <a href="proposal.html">Proposal</a>
+        <a href="memories.html">Memories</a>
+        <a href="together.html" aria-current="page">Together Timer</a>
+        <a href="finale.html">Final Surprise</a>
+      </nav>
+    </header>
+
+    <section id="relationship-timer" class="section glass-card timer-section">
+      <div id="timer-mini-hearts" class="timer-mini-hearts" aria-hidden="true"></div>
+      <h2>Our Time Story</h2>
+
+      <div class="timer-block">
+        <p class="timer-title">💖 We have been together for</p>
+        <div class="timer-grid timer-grid-together">
+          <article class="timer-chip">
+            <p class="timer-value-row"><span class="timer-icon">💗</span><span id="together-years" class="timer-value">0</span></p>
+            <p class="timer-label">Years</p>
+          </article>
+          <article class="timer-chip">
+            <p class="timer-value-row"><span class="timer-icon">💗</span><span id="together-months" class="timer-value">0</span></p>
+            <p class="timer-label">Months</p>
+          </article>
+          <article class="timer-chip">
+            <p class="timer-value-row"><span class="timer-icon">💗</span><span id="together-days" class="timer-value">0</span></p>
+            <p class="timer-label">Days</p>
+          </article>
+          <article class="timer-chip">
+            <p class="timer-value-row"><span class="timer-icon">💗</span><span id="together-hours" class="timer-value">00</span></p>
+            <p class="timer-label">Hours</p>
+          </article>
+          <article class="timer-chip">
+            <p class="timer-value-row"><span class="timer-icon">💗</span><span id="together-minutes" class="timer-value">00</span></p>
+            <p class="timer-label">Minutes</p>
+          </article>
+          <article class="timer-chip">
+            <p class="timer-value-row"><span class="timer-icon">💗</span><span id="together-seconds" class="timer-value">00</span></p>
+            <p class="timer-label">Seconds</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="timer-block">
+        <p class="timer-title">🎉 Time until our next anniversary</p>
+        <div class="timer-grid timer-grid-anniversary">
+          <article class="timer-chip">
+            <p class="timer-value-row"><span class="timer-icon">💘</span><span id="anniv-days" class="timer-value">0</span></p>
+            <p class="timer-label">Days</p>
+          </article>
+          <article class="timer-chip">
+            <p class="timer-value-row"><span class="timer-icon">💘</span><span id="anniv-hours" class="timer-value">00</span></p>
+            <p class="timer-label">Hours</p>
+          </article>
+          <article class="timer-chip">
+            <p class="timer-value-row"><span class="timer-icon">💘</span><span id="anniv-minutes" class="timer-value">00</span></p>
+            <p class="timer-label">Minutes</p>
+          </article>
+          <article class="timer-chip">
+            <p class="timer-value-row"><span class="timer-icon">💘</span><span id="anniv-seconds" class="timer-value">00</span></p>
+            <p class="timer-label">Seconds</p>
+          </article>
+        </div>
+      </div>
+
+      <p id="anniversary-note" class="anniversary-note"></p>
+    </section>
+  </main>
+
+  <audio id="romantic-music" src="music/romantic.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

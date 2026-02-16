@@ -1,0 +1,41 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine Wishies - Love Letter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-requires-unlock="true">
+  <div id="floating-hearts" aria-hidden="true"></div>
+
+  <main>
+    <header class="hero glass-card">
+      <p class="eyebrow">Valentine Wishies</p>
+      <h1>Dear <span data-her-name></span></h1>
+      <nav class="top-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="letter.html" aria-current="page">Love Letter</a>
+        <a href="kiss.html">Kiss</a>
+        <a href="proposal.html">Proposal</a>
+        <a href="memories.html">Memories</a>
+        <a href="together.html">Together Timer</a>
+        <a href="finale.html">Final Surprise</a>
+      </nav>
+    </header>
+
+    <section class="section glass-card">
+      <h2>My Love Letter</h2>
+      <p id="love-letter-text" class="love-letter-text"></p>
+      <span class="type-cursor" aria-hidden="true">|</span>
+    </section>
+  </main>
+
+  <audio id="romantic-music" src="music/romantic.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
